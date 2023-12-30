@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstFragment2"
+        android:icon="@drawable/icon1"
+        android:title="Aниме" />
+    <item
+        android:id="@+id/secondFragment2"
+        android:icon="@drawable/icon2"
+        android:title="Ужасы" />
+
+    <item
+        android:id="@+id/thirdFragment2"
+        android:icon="@drawable/icon3"
+        android:title="футбол"/>
+
+</menu>

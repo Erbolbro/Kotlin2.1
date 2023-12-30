@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:cardCornerRadius="30sp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="20dp"
+        android:text="назад"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="20sp" />
+
+    <ImageView
+        android:id="@+id/detailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/iv_detail"
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>
